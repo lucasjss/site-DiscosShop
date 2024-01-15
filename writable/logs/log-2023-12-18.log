@@ -1,0 +1,100 @@
+CRITICAL - 2023-12-18 11:14:13 --> Undefined variable $autorias
+in APPPATH\Views\autoria.php on line 23.
+ 1 APPPATH\Views\autoria.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autorias', 'C:\\xampp\\htdocs\\LojaDiscos\\app\\Views\\autoria.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\LojaDiscos\\app\\Views\\autoria.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('autoria', [], true)
+ 5 APPPATH\Controllers\MainController.php(96): view('autoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->autoria()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:34:13 --> Cannot access offset of type string on string
+in APPPATH\Views\autoria.php on line 30.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('autoria', [], true)
+ 4 APPPATH\Controllers\MainController.php(94): view('autoria', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->autoria()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:35:09 --> Undefined array key "nomeAutoria"
+in APPPATH\Views\autoria.php on line 30.
+ 1 APPPATH\Views\autoria.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomeAutoria"', 'C:\\xampp\\htdocs\\LojaDiscos\\app\\Views\\autoria.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\LojaDiscos\\app\\Views\\autoria.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('autoria', [], true)
+ 5 APPPATH\Controllers\MainController.php(94): view('autoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->autoria()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:36:18 --> Cannot access offset of type string on string
+in APPPATH\Views\autoria.php on line 31.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('autoria', [], true)
+ 4 APPPATH\Controllers\MainController.php(94): view('autoria', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->autoria()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:36:50 --> Undefined array key "nomeAutoria"
+in APPPATH\Views\autoria.php on line 31.
+ 1 APPPATH\Views\autoria.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomeAutoria"', 'C:\\xampp\\htdocs\\LojaDiscos\\app\\Views\\autoria.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\LojaDiscos\\app\\Views\\autoria.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('autoria', [], true)
+ 5 APPPATH\Controllers\MainController.php(94): view('autoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->autoria()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:40:39 --> Cannot access offset of type string on string
+in APPPATH\Views\autoria.php on line 31.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('autoria', [], true)
+ 4 APPPATH\Controllers\MainController.php(94): view('autoria', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->autoria()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:45:00 --> Invalid file: "editarAutorias.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editarAutorias.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('editarAutorias', [], true)
+ 3 APPPATH\Controllers\MainController.php(130): view('editarAutorias', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->editarAutoria('Kanye West')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:45:15 --> Invalid file: "editarAutoria.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editarAutoria.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('editarAutoria', [], true)
+ 3 APPPATH\Controllers\MainController.php(130): view('editarAutoria', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->editarAutoria('Black Alien')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:46:07 --> Invalid file: "editarAutoria.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editarAutoria.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('editarAutoria', [], true)
+ 3 APPPATH\Controllers\MainController.php(130): view('editarAutoria', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->editarAutoria('Kanye West')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 11:47:10 --> Cannot access offset of type string on string
+in APPPATH\Views\autoria.php on line 32.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('autoria', [], true)
+ 4 APPPATH\Controllers\MainController.php(94): view('autoria', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->autoria()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
